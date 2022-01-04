@@ -20,6 +20,7 @@
           />
           <div *ngIf="isInputted">
             <p>Your inputted temp is: {{ temperature }}</p>
+            
             <div class="radio" *ngFor="let type of tempTypes">
               <label>
                 <input

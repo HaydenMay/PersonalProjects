@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ConverterComponent implements OnInit {
   temperature: number = 0;
   tempTypes = ['Celsius', 'Fairenheit'];
-  tempConversionType: string = this.tempTypes[1];
+  tempConversionType = '';
   converted: string = '';
   isInputted = false;
 
