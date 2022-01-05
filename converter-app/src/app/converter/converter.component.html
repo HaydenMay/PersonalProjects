@@ -1,0 +1,7 @@
+<h2>Hey Everyone!</h2>
+
+<div>
+  <h4 [(ngModel)]="welcomeMessage">{{ welcomeMessage }}</h4>
+  <button (click)="onCapitalize(welcomeMessage)">To Capitalize</button>
+  <button type="button" (click)="onLittleCase(welcomeMessage)">To LittleCase</button>
+</div>
